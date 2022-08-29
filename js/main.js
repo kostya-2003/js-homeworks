@@ -107,10 +107,10 @@ for (let i = 0; i < tabBtns.length; i++) {
 		// 	tabBodys[x].classList.remove("tab_body-active");
 		// }
 		const active = document.querySelector(".tab_btn-active");
-    	const bodyActive = document.querySelector(".tab_body-active");
+    		const bodyActive = document.querySelector(".tab_body-active");
 
-    	active.classList.remove("tab_btn-active");
-    	bodyActive.classList.remove("tab_body-active");
+    		active.classList.remove("tab_btn-active");
+    		bodyActive.classList.remove("tab_body-active");
 		
 		tabBtns[i].classList.add("tab_btn-active");
 		tabBodys[i].classList.add("tab_body-active");
